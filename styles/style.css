@@ -1,0 +1,161 @@
+* {
+  
+
+    font-size: 14px; /* px means "pixels": the base font size is now 14 pixels high  */
+    font-family: 'Ubuntu', sans-serif; /* this should be the rest of the output you got from Google fonts */
+    
+}
+html{
+  height: 100%;
+}
+body {
+  height: 100%;
+}
+footer{
+  position: fixed;
+  bottom: 0;
+  background-color: rgb(237, 237, 237);
+  height: 40px;
+  width: 100%;
+  }
+#bell{
+  position: relative;
+  margin-top: 5px;
+  width: 30px;
+  top: 7px;
+}
+#profile{
+  position: relative;
+  margin-top: 5px;
+  width: 50px;
+  top: 15px;
+  opacity: 1;
+}
+.main{
+  position: relative;
+  width: 600px;
+  margin: auto;
+  top: 200px;
+}
+.main img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+}
+.search input{
+  border: 1px;
+  border-style: solid;
+  padding: 12px 20px;
+  border-color: #c8c5c5;
+  box-shadow: 1px 1px 5px #d4d4d4;
+  width: calc(100% - 42px);
+  height: 24px;
+  border-radius: 24px;
+  value="SEARCH ANYTHING"
+  
+}
+.r-navigation a:hover{
+  text-decoration: underline;
+}
+.r-navigation{
+  float: right;
+}
+.item{
+  display: inline;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.item img{
+  top: 3px;
+  height: auto;
+  width: 15px;
+  opacity: 0.5;
+}
+
+.item a{
+  margin-top: 20px;
+  text-decoration: none;
+  color: #3e3e3e;
+}
+.item img:hover{
+  opacity: 1;
+}
+.buttons{
+  text-align: center;
+  padding-top: 10px;
+}
+.buttons input{
+  margin-left: 4px;
+  margin-right: 4px;
+  padding: 10px 20px;
+  border: 1px solid #f2f1f0;
+  color: #757575;
+  font-weight: bold;
+}
+.buttons input:hover{
+  background-color: #f8f8f8;
+  border: 1px solid #c6c6c6;
+  color: #222;
+}
+.languagenav a{
+  text-decoration: none;
+  color: darkblue;
+}
+.languagenav a:hover{
+  text-decoration: underline;
+}
+.languagenav li{
+  display: inline-block;
+  padding: 0px 9px;
+  font-size: small;
+  color: #222;
+}
+.bottomnav li{
+  display: inline;
+}
+.bottomnav a{
+  text-decoration: none;
+  color: #222;
+  font-size: small;
+}
+.bottomleft{
+  position: relative;
+  top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.bottomright{
+  position: relative;
+  float: right;
+  top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.b0KoTc {
+    margin-left: 30px;
+    text-align: left;
+}
+.b0KoTc {
+    color: rgba(0,0,0,.54);
+    padding-left: 27px;
+}
+
+#fbar {
+    background: #f2f2f2;
+    line-height: 40px;
+    min-width: 980px;
+    border-top: 1px solid #e4e4e4;
+}
+#footer {
+    bottom: 0;
+    font-size: 10pt;
+    height: 35px;
+    position: fixed;
+    width: 100%;
+}
